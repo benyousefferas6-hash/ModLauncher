@@ -1,27 +1,43 @@
-# ModLauncher
+<div align="center">
 
-A Modrinth-style Minecraft launcher for Linux and Windows (Python + PyQt6).
+# 🚀 ModLauncher
+### A High-Performance, Modern Minecraft Launcher for Linux & Windows
+### لانشر ماين كرافت العصري، السريع، وعالي الأداء لنظامي لينكس وويتدوز
 
-## Get it
-- **Linux:** `./install.sh` (adds it to your app menu), or `./run.sh` to try it. Arch: `sudo pacman -S python xdg-utils nss xcb-util-cursor` first.
-- **Windows:** `run-windows.bat`, or build `ModLauncher.exe` with `build-windows.bat`.
-- **Downloads for everyone:** push the folder to GitHub and push a tag (`git tag v1.1.0 && git push --tags`); the workflow builds the Windows .exe and the Linux file
-  and attaches them to the release. The tag becomes the app version, and older versions show an "Update available" button.
+[![GitHub release](https://img.shields.io/github/v/release/benyousefferas6-hash/ModLauncher?style=for-the-badge&color=blue)](https://github.com/benyousefferas6-hash/ModLauncher/releases)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blueviolet?style=for-the-badge)](https://www.python.org/)
 
-## Sign in
-Account page > **Sign in with Microsoft**: a short code appears, you enter it on the Microsoft page, done. The Account page then shows
-"You are signed in" with your name and skin face, plus **Change account** and **Log out**. The launcher needs a Microsoft account that owns Minecraft: Java Edition.
+---
 
-For the developer (not shown in the app): the sign-in uses the Azure app ID set as `DEFAULT_CLIENT_ID` in `core.py` (public client, "Allow public client flows" on).
-Mojang must approve that app ID for other people's accounts: https://aka.ms/mce-reviewappid
+### 👑 Project Owner / مالك المشروع
+**Feras Benyoussef** (فراس)
 
-## Features
-- **Library** of instances and modpacks as cards (icons, search, sort, filter, right-click menu). Import `.mrpack` / CurseForge `.zip` modpacks, mods (`.jar`), resource packs and shaders
-  with **Import file...** or drag and drop. Mods can be disabled/enabled without deleting them.
-- **Browse Modrinth** for mods, modpacks, resource packs and shaders: icons, pages, **Install** or **Versions...**, parallel downloads.
-- **Skins**: front-view preview of your skin; change it from a PNG or copy another player's skin.
-- **Performance**: smart RAM (Auto), Java profiles, GameMode / priority, quiet launcher while playing, one-click FPS mods for Fabric/Quilt, in-game video presets.
-- **Crash report** window after a crash (and for hangs while closing), with safe settings in one click. The last run's log is `launcher-log.txt` in the instance folder.
-- **Backgrounds** that cross-fade (or your own images), Discord "Playing" status (Account > Discord app ID), update check on start.
+### 🤖 Powered by Claude AI / مدعوم بواسطة
+Developed with precision architecture and advanced performance logic using **Claude**.
 
-Data lives in `~/.local/share/modlauncher` (Linux) or `%APPDATA%\modlauncher` (Windows).
+---
+
+</div>
+
+## 🌟 Features / المميزات الرئيسية
+
+* ⚡ **High Performance & FPS Boost**: Built with custom JVM optimizations (G1GC) and native Linux GameMode support for zero lag.
+* 🔐 **Secure Microsoft Authentication**: Smooth and direct login via official Microsoft accounts.
+* 📦 **Instant Mod Management**: Easy access to install performance mods and shaders with a single click.
+* 🌐 **Bilingual Interface**: Fully optimized layout.
+
+---
+
+## 📥 Download & Installation / التنزيل والتشغيل
+
+1. Head over to the [Releases page](../../releases) to download the latest version for your platform:
+   * **Windows**: Download `ModLauncher-Windows.exe`
+   * **Linux**: Download `ModLauncher-Linux`
+2. Run the executable directly and enjoy!
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by Feras | صُنع بكل إتقان بواسطة فراس</p>
+</div>
